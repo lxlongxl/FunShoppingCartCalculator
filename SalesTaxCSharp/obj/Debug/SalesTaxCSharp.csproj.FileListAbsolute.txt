@@ -1,0 +1,6 @@
+C:\Users\Long Nguyen\Documents\Visual Studio 2015\Projects\SalesTaxCSharp\bin\Debug\SalesTaxCSharp.exe.config
+C:\Users\Long Nguyen\Documents\Visual Studio 2015\Projects\SalesTaxCSharp\bin\Debug\SalesTaxCSharp.exe
+C:\Users\Long Nguyen\Documents\Visual Studio 2015\Projects\SalesTaxCSharp\bin\Debug\SalesTaxCSharp.pdb
+C:\Users\Long Nguyen\Documents\Visual Studio 2015\Projects\SalesTaxCSharp\obj\Debug\SalesTaxCSharp.exe
+C:\Users\Long Nguyen\Documents\Visual Studio 2015\Projects\SalesTaxCSharp\obj\Debug\SalesTaxCSharp.pdb
+C:\Users\Long Nguyen\Documents\Visual Studio 2015\Projects\SalesTaxCSharp\obj\Debug\SalesTaxCSharp.csprojResolveAssemblyReference.cache
