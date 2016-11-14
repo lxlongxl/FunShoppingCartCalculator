@@ -1,4 +1,4 @@
-﻿namespace SalesTaxCSharp
+﻿namespace SalesTaxCSharp.Models.Factories
 {
     public interface IGoodsFactory
     {

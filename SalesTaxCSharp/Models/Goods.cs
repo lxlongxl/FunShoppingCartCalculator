@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SalesTaxCSharp
+﻿namespace SalesTaxCSharp.Models
 {
     public class Goods : IGoods
     {
@@ -12,9 +6,6 @@ namespace SalesTaxCSharp
         public double Price { get; set; }
         public int Quantity { get; set; }
         public bool Imported { get; set; }
-
         public bool TaxExempt { get; set; }
-
-
     }
 }

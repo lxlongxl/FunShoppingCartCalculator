@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using SalesTaxCSharp;
+using SalesTaxCSharp.Models;
+using SalesTaxCSharp.Models.Factories;
 
-namespace UnitTests.SalesTaxCSharp
+namespace UnitTests.SalesTaxCSharp.Models.Factories
 {
     [TestFixture]
     public class GoodsFactoryTests
     {
-
-
         [Test]
         public void Create_Returns_TaxExemptGood_Given_Valid_TaxExemptGoodInfo()
         {
@@ -102,6 +97,5 @@ namespace UnitTests.SalesTaxCSharp
             Assert.AreEqual(actual.Imported, true);
             Assert.IsInstanceOf<Goods>(actual, typeof(Goods).ToString());
         }
-
     }
 }

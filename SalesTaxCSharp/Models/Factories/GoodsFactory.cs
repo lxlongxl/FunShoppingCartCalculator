@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace SalesTaxCSharp
+namespace SalesTaxCSharp.Models.Factories
 {
     public class GoodsFactory : IGoodsFactory {
 
-        private List<string> Exemptions;
+        private readonly List<string> Exemptions;
        
         public GoodsFactory()
         {
@@ -14,15 +13,7 @@ namespace SalesTaxCSharp
     
         public IGoods Create(string category, int quantity, string name, double price)
         {
-            var good = new Goods();
-            if(Exemptions.Contains(category))
-            {
-                 good = new TaxExemptGood();
-            } else
-            {
-                 good = new Goods();
-            }
-
+            IGoods good = Exemptions.Contains(category) ? new TaxExemptGood() : new Goods();
             good.Quantity = quantity;
             good.Name = name;
             good.Price = price;
